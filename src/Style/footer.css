@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+.footer-content h3 {
+    width: 150px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: rgba(230, 144, 32, 0.774);;
+}
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    margin: 5px;
+}
+.social-media a {
+    margin-left: 10px;
+}
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+  

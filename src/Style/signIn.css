@@ -1,0 +1,83 @@
+/* css code for signIn and SignUp Page */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+}
+.login-container{
+    display: flex;
+    height: 100vh;
+    align-items: stretch;
+    justify-content: center;
+    
+}
+
+.login-container .left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center ;
+    background-size:100% 100%;
+}
+.login-container .right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(14, 14, 14, 0.109);
+}
+.login-container .form-container{
+    background: rgb(255, 254, 254);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.214);
+    width: 80%;
+}
+
+.login-container .form-container h2 {
+    margin-bottom: 20px;
+}
+.login-container .form-group{
+    margin-bottom: 15px;
+}
+.login-container .form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+.login-container .form-group input, .form-group select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.login-container .form-button{
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login-container .form-button:hover{
+    background: #0056b3;
+}
+.login-container .toggle{
+    margin-top: 10px;
+    cursor: pointer;
+    color: #176fcedc;
+}
+.login-container .toggle span{
+    text-decoration: underline;
+}
+.left h1{
+    color: rgba(230, 144, 32, 0.774);
+    font-size: 50px;
+    font-weight: bold;
+}
