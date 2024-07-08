@@ -64,6 +64,6 @@ This will start the development server. Open http://localhost:3000 to view the a
  Contributions are welcome! Please feel free to fork the repository and submit pull requests to suggest improvements or add new features.
 
 ## Incase of error, try running 
- '''bash
+ ```bash
  $ npm install react-scripts
- '''
+ ```
